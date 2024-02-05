@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "./layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 
 //Defining components
@@ -11,6 +12,12 @@ const IndexPage = () => {
     // </main>
     <Layout pageTitle="Home Page">
       <p>My heart's on a wandering trail.</p>
+      <StaticImage
+        alt="Whirlpool Aero Car Aerial View"
+        src="../images/Aerial-View.png"
+      />
+
+      
     </Layout>
   )
 }
